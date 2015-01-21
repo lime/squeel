@@ -9,6 +9,7 @@ module Squeel
 
       include PredicateOperators
       include Aliasing
+      include Ordering
 
       # @return The right-hand value being considered in this predicate.
       attr_accessor :value
